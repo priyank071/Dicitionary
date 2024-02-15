@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #140779, #270539, #072274);
+    background-size: 180% 180% ;
+  }
+.content{
+  margin-top: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+  text-align: end;
+  opacity: 90%;
+}
+p{
+font-family: 'Nunito', sans-serif;
+  opacity: 50%;
+  text-align: center;
+}
+.button{
+  margin-top: 2rem;
+  margin-left: 7rem;
+  font-size: 20px;
+  padding: 10px;
+  border:2px solid white;
+  border-radius: 45px;
+}
+
+body {
+  height: 100vh;
+}
+.form-add{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.add{
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.add label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+  font-size: 20px;
+}
+
+.add input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.add button {
+  background-color: #0c0c47;
+  color: white;
+  font-weight: 500;
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:40% ;
+  margin-top: 10px;
+}
+.add button:hover {
+  color: #050a40;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #5f6cf7;
+}
+
+/* for data  */
+.table-data-outer{
+  position: relative;
+}
+
+.table-data{
+  display: flex;
+  margin-top:5rem ;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 5rem;
+}
+
+.data-content{
+  text-align: center;
+  margin-top: 2vh;
+  font-size: 3rem;
+  color: white; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-table{
+  border:2px solid white;
+}
+
+#login-content
+{
+  margin-top: 5rem;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add-wel{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.gen-wel{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+  align-items: center;
+  color: white;
+}
+/* generator */
+
+.generate-input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.generate-button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#copyBtn {
+  padding: 5px;
+  font-size: 12px;
+}
+.svg{
+  margin-left: 6px;
+  cursor: pointer;
+}
+#gen-con{
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.generate{
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-left: 80px;
+}
+.generate button {
+  background-color: #0c0c47;
+  color: white;
+  font-weight: 500;
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.generate button:hover {
+  color: #050a40;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #5f6cf7;
+}

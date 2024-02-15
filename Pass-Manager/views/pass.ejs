@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Passwords</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="">
+  <div class="navbar">
+    <div class="my-nav">
+            <div class="logo" ><a href="/home">VoultKey</a></div>
+            <ul>
+            <li><a href="/pass">Passwords</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="table-data-outer">
+      <pre> </pre>
+      <div class="data-content"><h1 >Your Passwords</h1></div>
+    <div class="table-data">
+        <table class="my-table">
+          <tr class="table-head">
+            <th class="my-col" scope="col">Website</th>
+            <th class="my-col" scope="col">Username</th>
+            <th class="my-col" scope="col">Password</th>
+            <th  class="my-col" scope="col">Remove</th>
+          </tr>
+          <% if(locals.data){ %>
+          <% data.forEach(row => {%>
+              <tr class="my-row">
+              <td class="my-row-data"><%=row.website  %></td>
+              <td class="my-row-data"><%=row.username  %></td>
+              <td class="my-row-data"><%=row.passwords  %> </td>
+              <td class="my-row-data" ><button  type="button" class="btn btn-outline-primary remove">Remove</button></td>
+              </tr>
+         <% }); %>
+          <% }else{ %>
+              <h1>hello</h1>
+              <% } %>
+ 
+  </table>
+  </div>
+</div>
+</body>
+</html>
